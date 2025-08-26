@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>bringup_pkg</name> <!-- 包名记得改 -->
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+    <maintainer email="chloe@outlook.com">chloe</maintainer> <!-- maintainer是必要的，填自己 -->
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 这里的depend真正作用是指定编译顺序，由依赖关系指定编译顺序 -->
+  <depend>detector_pkg</depend>
+  <depend>solver_pkg</depend>
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
