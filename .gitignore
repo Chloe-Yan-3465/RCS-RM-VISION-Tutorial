@@ -1,0 +1,49 @@
+# ROS 2 / colcon workspaces
+**/build/
+**/install/
+**/log/
+
+# CMake-generated files (including accidental in-source builds)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Compiled objects, libraries, and executables
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+*.pdb
+
+# Runtime logs and crash artifacts
+*.log
+*.trace
+core
+core.*
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editor and operating-system noise
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
